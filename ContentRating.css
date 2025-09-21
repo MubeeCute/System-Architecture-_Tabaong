@@ -1,0 +1,30 @@
+.content-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.rating-buttons {
+  margin-top: 10px;
+}
+
+.rating-buttons button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rating-buttons .like-btn {
+  background-color: blue;
+}
+
+.rating-buttons .dislike-btn {
+  background-color: red;
+}
